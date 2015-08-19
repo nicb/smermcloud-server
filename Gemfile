@@ -12,8 +12,9 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
+gem 'bootstrap-sass'
 gem 'devise'
-gem 'foundation-rails'
+gem 'devise_invitable'
 gem 'haml-rails'
 gem 'simple_form'
 gem 'therubyracer', :platform=>:ruby
@@ -41,5 +42,4 @@ group :test do
   gem 'database_cleaner'
   gem 'launchy'
   gem 'selenium-webdriver'
-	gem 'codeclimate-test-reporter', require: nil
 end

@@ -36,3 +36,6 @@ bower.json
 
 # Ignore codeclimate environment variable setup
 .CCRT
+
+# Ignore personal environment files
+MYENV
